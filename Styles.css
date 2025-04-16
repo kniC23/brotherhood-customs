@@ -1,0 +1,98 @@
+/* ----------- GENERAL PAGE STYLING ----------- */
+body {
+    background-color: lightblue;
+    background-size: cover;
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* ----------- CONTAINER (WHITE BOX) ----------- */
+.container {
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ----------- HEADER AND FOOTER ----------- */
+header, footer {
+    margin-bottom: 20px;
+}
+
+/* ----------- NAVIGATION MENU ----------- */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ----------- LISTS (RESET STYLES) ----------- */
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------- IMAGE STYLING ----------- */
+.custom-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    display: inline-block;
+}
+.large-image {
+    max-width: 100%;
+}
+
+/* ----------- FLEX CONTAINER FOR MULTIPLE IMAGES ----------- */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+/* ----------- FOOTER LINKS AND TEXT ----------- */
+footer ul {
+    margin-top: 20px;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
